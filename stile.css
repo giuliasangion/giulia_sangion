@@ -1,0 +1,265 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 0.7%;
+  }
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #444;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 14px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white ;
+    color: black;
+    text-decoration: underline;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.gmail{
+  align-items: center;
+  width: 5px;
+  height: 5px;
+-webkit-transform: scale(0.28, 0.3);
+position: absolute;
+  display: inline-block;
+right: 7%;
+top: 55px;
+}
+
+#mail{
+  position:absolute;
+  bottom: 5%;
+  left: 40%;
+  font-size: 14px;
+}
+
+div.instagram{
+  align-items: center;
+  width: 5px;
+  height: 5px;
+-webkit-transform: scale(0.04, 0.04);
+float: right;
+padding-right: 8%;
+line-height: 90%;
+}
+
+#wrapper {
+  width: 100%;
+  margin-top: 45px;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  position: relative;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 1s;
+  display: inline-block;
+  margin: 0;
+  width: 25%;
+}
+
+#box2 {
+  background: white;
+}
+
+#box3 {
+  background: white;
+}
+
+#box4 {
+  background: white;
+}
+
+.image-text {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.34);
+	padding: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 11pt;
+	opacity: 0;
+	transition: 0.6s;
+}
+.image-text:hover {
+	opacity: 1;
+}
+
+#mail a, #mail a:visited {
+    /* float: center;
+    display: center; */
+		color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 14px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+    line-height: 166px;
+}
+
+.box1 {
+  position: relative;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 1s;
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+}
+
+.image-text {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.34);
+	padding: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12pt;
+	opacity: 0;
+	transition: 0.6s;
+  line-height: 0px;
+}
+.image-text:hover {
+	opacity: 1;
+}
+
+.box-bio {
+  position: relative;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 1s;
+  display: inline-block;
+  margin: 0;
+  width: 50%;
+}
+
+.text {
+	color: black;
+	bottom: 0;
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+  margin-left: 45%;
+}
+
+#bio-text {
+  float: right;
+  opacity: 1;
+  height: 1000px;
+  width: 300px;
+  background: white;
+  transition: 1s;
+  display: inline-block;
+  margin: 0;
+  /* margin-left: 10px; */
+	padding: 0;
+  width: 47%;
+}
+
+#bio-text h4 {
+	margin-top: 0;
+}
+
+#backtotop {
+      height: 60px;
+      width: 60px;
+      background-color: white;
+      position: fixed;
+      bottom: 50px;
+      right: 13px;
+      border-radius: 50%;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      text-align: center;
+}
+
+#bottone {
+      padding-top: 17px;
+}
+
+
+/* #mail {
+  display: center;
+  text-color: black;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 14px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 75px;
+} */
+
+/* .h1 {
+  font-size: 17pt;
+} */
+
+/* .image {
+  margin-top: 4px;
+} */
+
+
+/* #image1 {
+	opacity: 0;
+	transition: 1s;
+}
+#image1:hover {
+	opacity: 1;
+} */
+
+
+/* div.image2{
+  height: 100px;
+  width: 100px;
+} */
